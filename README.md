@@ -1,7 +1,7 @@
 
 ## Project Name
 
-That-s-Giphy-
+Thats-Giphy
 
 ## Project Description
 
