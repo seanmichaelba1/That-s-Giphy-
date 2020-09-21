@@ -5,7 +5,7 @@ Thats-Giphy
 
 ## Project Description
 
-Users can use this app to  search for gifs to use or generate a random gif. 
+Users can use this app to search for gifs to use for their own content, or generate a random gif for fun.  
 
 ## API and Data Sample
 
@@ -62,9 +62,9 @@ https://imgur.com/9pOkmmd
 
 #### MVP 
 
--Allows users to save or share gifs 
--Allows users to search by category
--Users can randomly generate content
+-Allow users to save or share gifs 
+-Allow users to search by category
+-Users can randomly generate gif content
 
 ## Project Schedule
 
@@ -83,7 +83,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+https://i.imgur.com/P5BRUbB.jpg
 
 ## Timeframes
 
