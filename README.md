@@ -9,8 +9,7 @@ Users can use this app to search for gifs to use for their own content, or gener
 
 ## API and Data Sample
 
-https://api.giphy.com/v1/gifs/search?api_key=S1sHTPi1WLsuzi3wmtKSLbU79vt6r2FY&q=&limit=25&offset=0&rating=g&lang=en
-
+https://api.giphy.com/v1/gifs/search?api_key=S1sHTPi1WLsuzi3wmtKSLbU79vt6r2FY&q=phrase&limit=25&offset=0&rating=pg-13&lang=en
 
 {
     "data": [
