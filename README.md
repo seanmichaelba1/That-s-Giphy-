@@ -61,7 +61,7 @@ https://imgur.com/9pOkmmd
 
 #### MVP 
 
--Allow users to save or share gifs 
+-Make Gifs accessible 
 -Allow users to search by category
 -Users can randomly generate gif content
 
