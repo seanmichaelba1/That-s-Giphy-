@@ -4,7 +4,6 @@ const getGifs = (searchTerm="string") => {
 const url=geturl(searchTerm) 
   const results = document.querySelector('.results')
   axios.get(url).then((res) => {
-    // console.log(res)
     const giphsList = res.data.data;
   
     renderList(giphsList)

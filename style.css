@@ -4,18 +4,14 @@
   
 }
 
-
 .giphy-list {
   flex-wrap: wrap;
   flex-direction: column;
   flex-shrink: inherit;
   float: center;
   position: relative;
-  background-color: black;
 
 }
-
-
 
 h1 {
   
@@ -26,17 +22,17 @@ h1 {
 }
 
 body {
-  /* background: #1e1e1e; */
   color: lavender;
   background-image: url("https://i.imgur.com/RrxZAcT.jpg");
-  background-size: 100%;
+  background-size: 150%;
   font-family: sans-serif;
   text-align: center;
   font-size: 15px;
-  margin: 200px;
+  margin-left: 200px;
+  margin-right: 100px;
+  margin-bottom: 20%;
   max-width: 1000px;
-  scrollbar-width: thin;      
-  scrollbar-color: blue orange; 
+  scrollbar-width: thin;  
   }
 
 
@@ -45,7 +41,7 @@ ul {
   position: absolute;
   left: 50px;
   top: 20px;
-  word-spacing: 5px;
+  word-spacing: 7px;
 }
 
 .underbar {
@@ -93,7 +89,6 @@ li:nth-of-type(4):hover ~ .underbar {
   background: rgba(81, 255, 7, 0.974);
   box-shadow: 0 0 10px #e648cb;
 }
-/* https://speckyboy.com/underline-text-effects-css/  */
 
 input {
   width: 450px;
@@ -111,8 +106,7 @@ input {
 h2 {
 padding-bottom: 25px;
 border: black;
-background-color: black;
-opacity: .9;
+
 }
 
 
@@ -125,16 +119,6 @@ opacity: .9;
   color: black;
   text-align: center;
 }
-
-@media (min-width: 900px) {
-  .spaces {
-position: relative;  
-border: black solid 4px;
-background-color: lavender;
-opacity: 0.9;
-}
-
-
 
 * {
   scrollbar-width: thin;
@@ -156,4 +140,12 @@ opacity: 0.9;
 .box {
   color: #000000;
   background-color: #000000;
-}
+  margin-top: 100px;}
+
+  @media screen and (max-width: 900px) {
+    img.logopic, 
+    nav,
+    .box {
+      display: none;
+    }
+  }
