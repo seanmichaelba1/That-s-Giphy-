@@ -101,11 +101,12 @@ Tell us how long you anticipate spending on each area of development. Be sure to
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
+ const form = document.querySelector('.spaces')
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      let input = e.target.searchbar.value
+      getGifs(input);
+    }) //This bit of code that makes the search bar functional. 
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.
